@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trip Advisor clone</title>
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/fonts.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/690dfddffa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="container">
+      <div class="header-left">
+      <img
+        src="/Integration/tripadvisor/assets/img/logo.svg"
+        alt="logo TripAdvisor"
+      />
+      <div class="searchbar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text">
+      </div>
+    </div>
+      <nav>
+          <div class="button-menu">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <p>Avis</p>
+          </div>
+          <div class="button-menu">
+            <i class="fa-regular fa-heart"></i>
+            <p>Voyages</p>
+          </div>
+          <div class="button-menu">
+            <i class="fa-regular fa-bell"></i>
+            <p>Alertes</p>
+          </div>
+        
+        <button>Connectez-vous</button>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="section-1">
+        <h1><span>Explorez</span> Paris</h1>
+        <nav class="main-menu">
+          <div class="main-menu-button">
+            <p>Hôtels</p>
+            <i class="fa-solid fa-bed"></i>
+          </div>
+          <div class="main-menu-button">
+            <p>Location de vacances</p>
+            <i class="fa-solid fa-house"></i>
+          </div>
+          <div class="main-menu-button">
+            <p>Activités</p>
+            <i class="fa-solid fa-ticket"></i>
+          </div>
+          <div class="main-menu-button">
+            <p>Restaurants</p>
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <div class="main-menu-button">
+            <p>Forums de voyage</p>
+            <i class="fa-regular fa-message"></i>
+          </div>
+          <div class="main-menu-button">
+            <p>Plus</p>
+            <i class="fa-regular fa-comment-dots"></i>
+          </div>
+        </nav>
+        <nav class="images">
+          <div class="left">
+            <img
+              class="img-left"
+              src="./assets/img/photo-paris-left.jpg"
+              alt="quais de Seine"
+            />
+          </div>
+          <div class="right">
+            <img
+              class="img-right-top"
+              src="./assets/img/photo-paris-right-top.jpg"
+              alt="couple en moto"
+            /><img
+              class="img-right-bottom"
+              src="./assets/img/photo-paris-right-bottom.jpg"
+              alt="tour Eiffel"
+            />
+          </div>
+        </nav>
+        <nav class="nav-under-images">
+          <p>
+            <span>Europe</span> > <span>France</span> >
+            <span>Ile-de-France</span> > <span>Paris</span> ▼
+          </p>
+          <p>Visiter Paris</p>
+        </nav>
+      </section>
+      <section class="section-2">
+        <h2>La Ville Lumière éblouit en tous points</h2>
+        <p class="georgia-font">
+          Aucun autre endroit au monde ne fait autant rêver que Paris. La ville
+          séduit par son art, son architecture, sa culture et sa cuisine, mais
+          il y a aussi des merveilles plus discrètes qui n’attendent qu’à être
+          explorées : les ruelles pavées pittoresques, les pâtisseries au coin
+          de la rue et les petits bistrots douillets qui vous invitent à boire
+          un verre de beaujolais. Préparez-vous à vous approprier Paris.
+        </p>
+      </section>
+      <section class="section-3">
+        <h2>Paris : les immanquables</h2>
+        <div class="under-section">
+          <div class="left-description">
+            <h3>Se divertir</h3>
+            <p>
+              Des lieux à voir, des rues à explorer et des expériences
+              emblématiques à Paris.
+            </p>
+            <button>Tout afficher</button>
+          </div>
+          <div class="carousel">
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.1.jpg"
+                alt="tour eiffel"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Eiffel Tower</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>140 727</span>
+              </div>
+              <p>
+                Tours et plateformes d'observation, Monuments & Points d'intérêt
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.2.jpg"
+                alt="louvre"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Musée du Louvre</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>101 240</span>
+              </div>
+              <p>Bâtiments architecturaux, Musées d'art</p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.3.jpg"
+                alt="acr de triomphe"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Arc de Triomphe</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>45 340</span>
+              </div>
+              <p>Bâtiments architecturaux, Sites historiques</p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.4.jpg"
+                alt="musée rodin"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Musée Rodin</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>12 516/span>
+              </div>
+              <p>Musées spécialisés</p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.5.jpg"
+                alt="Notre-Dame de Paris"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Cathédrale Notre-Dame de Paris</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>71 342</span>
+              </div>
+              <p>Bâtiments architecturaux, Sites historiques</p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.6.jpg"
+                alt="librairie Shakespeare and Compagny"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Librairie Shakespeare and Compagny</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>3 937</span>
+              </div>
+              <p>Bibliothèques, Grands magasins</p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.7.jpg"
+                alt="musée d'Orsay"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Musée d'Orsay</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>66 129</span>
+              </div>
+              <p>Musées d'art</p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.8.jpg"
+                alt="marché aux puces St-Ouen"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <h4>Marché aux Puces de Saint-Ouen</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.png"
+                  alt="note 4/5"
+                /><span>874</span>
+              </div>
+              <p>Antiquaires, Marchés aux puces & Marchés de rue</p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.9.jpg"
+                alt="Basilique du Sacré-coeur Montmartre"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Basilique du Sacré-Cœur de Montmartre</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>38 834</span>
+              </div>
+              <p>Eglises et cathédrales</p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-1.10.jpg"
+                alt="Jardins des tuileries"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Jardins des Tuileries</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>7 576</span>
+              </div>
+              <p>Jardins</p>
+            </article>
+          </div>
+        </div>
+<!-- ----------------------------------------------------------------- -->
+        <div class="under-section">
+          <div class="left-description">
+            <h3>Se reposer</h3>
+            <p>
+              Un mélange de charme, de symboles et de modernité.
+            </p>
+            <button>Tout afficher</button>
+          </div>
+          <div class="carousel">
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.0.jpg"
+                alt="hotel Le Bristol"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-yellow.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Le Bristol Paris</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-5.png"
+                  alt="note 5/5"
+                /><span>2 143</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.1.jpg"
+                alt="hotel et spa La Reserve"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-yellow.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>La Réserve Paris - Hotel and Spa</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-5.png"
+                  alt="note 5/5"
+                /><span>526</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.2.jpg"
+                alt="hotel Four Seasons George 5"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-yellow.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Four Seasons Hotel George V</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-5.png"
+                  alt="note 5/5"
+                /><span>3 135</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.3.jpg"
+                alt="hotel de Crillon"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Hôtel de Crillon, A Rosewood Hotel</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>681</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.4.jpg"
+                alt="hotel Le Meurice"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Le Meurice</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>1 368</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.5.jpg"
+                alt="hotel des grands boulevards"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Hotel des Grands Boulevards</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>236</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.6.jpg"
+                alt="hotel the hoxton"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>The Hoxton, Paris</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>1 198</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.7.jpg"
+                alt="hotel henriette"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <h4>Hôtel Henriette</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>1 232</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.8.jpg"
+                alt="Hidden hotel"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Hidden Hotel</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>1 636</span>
+              </div>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-2.9.jpg"
+                alt="hotel signature saint germain des près"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-yellow.png"
+                alt="logo Traveler's choice"
+              />
+              <h4>Hôtel Signature Saint Germain des Près</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-5.png"
+                  alt="note 5/5"
+                /><span>1 722</span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- ----------------------------------------------------------------- -->
+        <div class="under-section">
+          <div class="left-description">
+            <h3>Se restaurer</h3>
+            <p>
+              Bistrots et bars typiques, et plus encore à Paris.
+            </p>
+            <button>Tout afficher</button>
+          </div>
+          <div class="carousel">
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.1.jpg"
+                alt="resto verjus"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <h4>Verjus</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>589</span>
+              </div>
+              <p>
+                €€€€ - Française, Européenne, Moderne
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.2.jpg"
+                alt="resto 114 Faubourg"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <img class="logo-michelin" src="./assets/img/logo-michelin.png" alt="logo michelin">
+              <h4>114 Faubourg</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>1 805</span>
+              </div>
+              <p>
+                €€€€ - Française, Européenne, Végétariens bienvenus
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.3.jpg"
+                alt="resto Frenchie"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <img class="logo-michelin" src="./assets/img/logo-michelin.png" alt="logo michelin">
+              <h4>Frenchie</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>1 320</span>
+              </div>
+              <p>
+                €€€€ - Française, Végétariens bienvenus, Plats sans gluten
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.4.jpg"
+                alt="resto la table de colette"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-yellow.png"
+                alt="logo Traveler's choice"
+              />
+              <img class="logo-michelin" src="./assets/img/logo-michelin.png" alt="logo michelin">
+              <h4>La Table de Colette</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-5.png"
+                  alt="note 5/5"
+                /><span>577</span>
+              </div>
+              <p>
+                €€€€ - Française, Européenne, Saine
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.5.jpg"
+                alt="resto Aspic"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img
+                class="carousel-logo"
+                src="./assets/img/logo-2021-green.png"
+                alt="logo Traveler's choice"
+              />
+              <img class="logo-michelin" src="./assets/img/logo-michelin.png" alt="logo michelin">
+              <h4>ASPIC</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-5.png"
+                  alt="note 5/5"
+                /><span>1 101</span>
+              </div>
+              <p>
+                €€€€ - Française, Européenne, Moderne
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.6.jpg"
+                alt="crèperie gigi"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <h4>Crêperie Gigi</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>236</span>
+              </div>
+              <p>
+                €€-€€€€ - Française, Végétariens bienvenue, Choix végétaliens
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.7.jpg"
+                alt="Juveniles wine bar"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <h4>Juveniles Wine Bar</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>421</span>
+              </div>
+              <p>
+                €€-€€€€ - Française, Européenne, Bar à vins
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.8.jpg"
+                alt="le barav"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <h4>Le Barav</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.png"
+                  alt="note 4/5"
+                /><span>298</span>
+              </div>
+              <p>
+                €€€€ - Française, Bar à vins
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.9.jpg"
+                alt="resto Pedzouille"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <h4>Pedzouille</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>473</span>
+              </div>
+              <p>
+                €€-€€€€ - Française, Européenne
+              </p>
+            </article>
+            <article>
+              <img
+                class="carousel-photo"
+                src="./assets/img/carousel-3.10.jpg"
+                alt="resto Le Rimagnole"
+              />
+              <div class="circle"></div>
+              <i class="fa-regular fa-heart heart"></i>
+              <img class="logo-michelin" src="./assets/img/logo-michelin.png" alt="logo michelin">
+              <h4>Le Rimagnole</h4>
+              <div class="notations">
+                <img
+                  src="./assets/img/notation-4.5.png"
+                  alt="note 4.5/5"
+                /><span>32</span>
+              </div>
+              <p>
+                €€€€ - Française, Japonaise, Internationale
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer><img src="./assets/img/logo-rond.svg" alt="logo"><p>Made at 
+      <a href="https://www.lereacteur.io/">Le Reacteur</a> by <a href="https://github.com/Pops47?tab=repositories">Pauline Soubrié</a> - 2022</p></footer> 
+  </body>
+</html>
